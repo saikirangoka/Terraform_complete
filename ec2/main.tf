@@ -41,7 +41,7 @@ resource "aws_security_group" "myec2sg" {
 
 
 
-resource "aws_instance" "bhp_instance" {
+/* resource "aws_instance" "bhp_instance" {
     ami = "ami-09c813fb71547fc4f"
     instance_type = "t2.micro"
 
@@ -72,4 +72,4 @@ resource "aws_security_group" "allow_tls" {
         protocol = "-1"
         cidr_blocks = ["0.0.0.0/0"]
     }
-}
+} */
